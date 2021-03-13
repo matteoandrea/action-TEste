@@ -39,4 +39,4 @@ jobs:
 
     steps:
       - name: Teste shell
-        run: echo Failed; exit 1;
+        run: echo Success;
