@@ -33,4 +33,10 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo test, and deploy your project.
+          echo test, and deploy your project.          
+  test:
+    runs-on: ubuntu-lastest
+
+    steps:
+      - name: Teste shell
+        run: echo Failed; exit 1;
